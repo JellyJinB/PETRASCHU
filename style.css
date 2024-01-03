@@ -2352,7 +2352,7 @@ footer {
 @media screen and (max-width:499px) {
     .menu_button {
         background-color: rgb(255, 255, 255, .1);
-        width: 10%;
+        width: 13%;
     }
 
     header {
