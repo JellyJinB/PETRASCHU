@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width&#44; initial-scale=1.0">
+    <title>Petraschu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/ed41fb7070.js" crossorigin="anonymous"></script>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./Petraschu.js" defer="defer"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="main_nav">
+            <h1><a href="#"><img src="./img/logo.svg" alt="logo"><span>Petraschu</span></a></h1>
+            <ul>
+                <li><a href="#">증상별 질병검색</a></li>
+                <li><a href="#">동물병원&#183;약국찾기</a></li>
+                <li><a href="#">펫 서비스</a></li>
+                <li><a href="#">무료나눔&#183;체험단</a></li>
+                <li><a href="#">반려동물 꿀팁</a></li>
+                <li><a href="#">증상별 질병검색</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="./img/main/login.svg" alt="login"></a></li>
+                <li><a href="#"><img src="./img/main/service_center.svg" alt="service_center"></a></li>
+            </ul>
+        </nav>
+        <button type="button" class="menu_button"><img src="./img/main/menu-01.svg" alt="menu-01"></button>
+    </header>
+    <nav class="sub_nav">
+        <ul class="sub_open">
+            <li><a href="#">진료비 평균가</a></li>
+            <li><a href="#">진료비 상세내역</a></li>
+        </ul>
+    </nav>
+    <nav class="open_nav">
+        <ul>
+            <li>
+            <ul class="open_nav_login">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+            </li>
+            <li><a href="#">증상별 질병검색</a>
+                <ul class="open_nav_sub">
+                    <li><a href="#">진료비 평균가</a></li>
+                    <li><a href="#">진료비 상세내역</a></li>
+                </ul>
+            </li>
+            <li><a href="#">동물병원&#183;약국찾기</a></li>
+            <li><a href="#">펫 서비스</a></li>
+            <li><a href="#">무료나눔&#183;체험단</a></li>
+            <li><a href="#">반려동물 꿀팁</a></li>
+            <li><a href="#">증상별 질병검색</a></li>
+        </ul>
+    </nav>
+    <!-- //////// -->
+
+    <main>
+        <!-- ///////// -->
+
+        <section class="main">
+            <div class="main_container">
+                <h3 hidden>Petraschu 진료항목 검색</h3>
+                <div class="swiper first">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="./img/main/banner1.jpg" alt="banner1"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./img/main/banner2.jpg" alt="banner2"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./img/main/banner3.jpg" alt="banner3"></a></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="search-bar">
+                    <button type="button" class="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input class="search-bar__input" type="search" placeholder="&#42;  진료항목을 입력하세요.">
+                </div>
+            </div>
+        </section>
+
+        <!-- ////////// -->
+
+        <section class="section1">
+            <div class="s1_nav">
+                <div class="s1_pet">
+                    <figure><img src="./img/section/cat.png" alt="cat"></figure>
+                </div>
+                <div>
+                    <h5>진료비</h5>
+                    <p>62&#44;573건</p>
+                </div>
+                <div>
+                    <h5>병원</h5>
+                    <p>4&#44;546건</p>
+                </div>
+                <div>
+                    <h5>약국</h5>
+                    <p>6&#44;647건</p>
+                </div>
+                <div>
+                    <h5>펫서비스</h5>
+                    <p>9&#44;394건</p>
+                </div>
+                <div class="s1_pet">
+                    <figure><img src="./img/section/dog.png" alt="dog"></figure>
+                </div>
+            </div>
+            <div class="s1_slide">
+                <div class="swiper second">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>건강검진&#45;기본</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>176&#44;200원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>중성과 암컷&#40;반려묘&#41;</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>295&#44;500원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>요도결석 제거 수술</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>612&#44;000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>유선종양 제거 수술</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>597&#44;000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>전신마취</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>81&#44;300원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>진료비&#45;초진</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>9&#44;500원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>진료비-재진&#40;~5kg&#41;</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>7&#44;300원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>진료비&#45;초진&#40;15kg이상&#41;</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>15&#44;300원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_box">
+                                <h4>자궁축농증 수술</h4>
+                                <div class="money"><span>전국평균</span>
+                                    <p>515&#44;000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            </div>
+            <div class="review_container">
+                <div class="review_box review">
+                    <div class="title">
+                        <h4>리뷰평점 우수</h4>
+                    </div>
+                    <ul>
+                        <li><em>1</em><a href="#">
+                                <p> <span>24시더케어 동물의료센터</span></p>
+                                <p>경기도 구리시</p>
+                            </a>
+                            <p><i class="fa-solid fa-star"></i><span>5.0</span></p>
+                        </li>
+                        <li><em>2</em><a href="#">
+                                <p> <span>유성 동물병원</span></p>
+                                <p>대전광역시 유성구</p>
+                            </a>
+                            <p><i class="fa-solid fa-star"></i><span>5.0</span></p>
+                        </li>
+                        <li><em>3</em><a href="#">
+                                <p> <span>유니온 동물메디컬센터</span></p>
+                                <p>경상남도 창원시 의창구</p>
+                            </a>
+                            <p><i class="fa-solid fa-star"></i><span>4.9</span></p>
+                        </li>
+                        <li><em>4</em><a href="#">
+                                <p> <span>래플즈 동물병원</span></p>
+                                <p>경기도 구리시</p>
+                            </a>
+                            <p><i class="fa-solid fa-star"></i><span>5.0</span></p>
+                        </li>
+                        <li><em>5</em><a href="#">
+                                <p> <span>쿨펫 동물병원 단방점</span></p>
+                                <p>대전광역시 서구</p>
+                            </a>
+                            <p><i class="fa-solid fa-star"></i><span>5.0</span></p>
+                        </li>
+                    </ul>
+                    <div class="plus">
+                        <a href="#">
+                        <p>더보기 <i class="fa-solid fa-plus"></i></p>
+                    </a>
+                    </div>
+                </div>
+                <div class="review_box check">
+                    <div class="title">
+                        <h4>금주 최다 조회</h4>
+                    </div>
+                    <ul>
+                        <li><em>1</em><a href="#">
+                                <p> <span>24시더케어 동물의료센터</span></p>
+                                <p>경기도 구리시</p>
+                            </a></li>
+                        <li><em>2</em><a href="#">
+                                <p> <span>유성 동물병원</span></p>
+                                <p>대전광역시 유성구</p>
+                            </a></li>
+                        <li><em>3</em><a href="#">
+                                <p> <span>유니온 동물메디컬센터</span></p>
+                                <p>경상남도 창원시 의창구</p>
+                            </a></li>
+                        <li><em>4</em><a href="#">
+                                <p> <span>래플즈 동물병원</span></p>
+                                <p>경기도 구리시</p>
+                            </a></li>
+                        <li><em>5</em><a href="#">
+                                <p> <span>쿨펫 동물병원 단방점</span></p>
+                                <p>대전광역시 서구</p>
+                            </a></li>
+                    </ul>
+                    <div class="plus">
+                        <a href="#">
+                            <p>더보기 <i class="fa-solid fa-plus"></i></p>
+                        </a>
+                    </div>
+                </div>
+                <div class="review_box new_review">
+                    <div class="title">
+                        <h4>최신 후기</h4>
+                    </div>
+                    <ul>
+                        <li><em>1</em><a href="#">
+                                <p> <span>다온 동물병원</span></p>
+                                <p>경기도 안양시 동안구</p>
+                            </a></li>
+                        <li><em>2</em><a href="#">
+                                <p> <span>24시더케어 동물의료센터</span></p>
+                                <p>경기도 구리시</p>
+                            </a></li>
+                        <li><em>3</em><a href="#">
+                                <p> <span>다온 동물병원</span></p>
+                                <p>부산광역시 남구</p>
+                            </a></li>
+                        <li><em>4</em><a href="#">
+                                <p> <span>예뻐지개냥</span></p>
+                                <p>부산광역시 남구</p>
+                            </a></li>
+                        <li><em>5</em><a href="#">
+                                <p> <span>율하 동물병원</span></p>
+                                <p>대구광역시 동구</p>
+                            </a></li>
+                    </ul>
+                    <div class="plus">
+                        <a href="#">
+                            <p>더보기 <i class="fa-solid fa-plus"></i></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /////////// -->
+
+        <section class="section2">
+            <div class="search_container">
+                <div class="search_box">
+                <p>check &#33;</p>
+                <div class="title">
+                    <h3>어디가 아픈지&#63; 어떤 질병인지&#63;</h3>
+                    <span>궁금하시다면&#44; 바로 확인해 보세요</span>
+                </div>
+                <span class="line"></span>
+                <div class="button">
+                    <a href="#">
+                        <h5>증상별 질병 검색</h5>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- ////////// -->
+
+        <section class="section3">
+            <div class="map_box">
+                <figure><img src="./img/section/map.png" alt="map"></figure>
+                <div class="map_text">
+                    <p>SEARCH</p>
+                    <div class="map_title">
+                        <h3>위치&#183;<span>24h</span>&#183;영업시간&#183;주차 부가서비스 등</h3>
+                        <span>국내 모든 펫 서비스를 빠르게 확인하고 이용해보세요!</span>
+                    </div>
+                    <div class="item_container">
+                        <div class="item">
+                            <a href="#"><h5>동물병원</h5></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><h5>동물약국</h5></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><h5>펫서비스</h5></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><h5>동반장소</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ///////// -->
+        <section class="section4">
+            <div class="petstagram_container">
+                <div class="petstagram">
+                    <a href="#">
+                    <h5>펫스타그램 바로가기</h5>
+                    <figure><img src="./img/section/slide-next.png" alt="slide-next"></figure>
+                </a>
+                </div>
+            </div>
+        </section>
+        <!-- ///////// -->
+        <section class="section5">
+            <div class="join_container">
+                <div class="join owner">
+                    <p>pet owner</p>
+                    <h4>펫오너가입</h4>
+                    <span>더 많은 정보를 위해 <br>
+                        지금바로 회원가입 하세요!</span>
+                    <span class="line"></span>
+                    <div class="join_button">
+                        <a href="#">
+                            <h5>펫오너로 가입</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="join hospital">
+                    <p>hospital&#183;pharmacy</p>
+                    <h4>펫병원&#183;약국</h4>
+                    <span>병원&#183;약국 홍보를 위해 <br>
+                        지금바로 회원가입 하세요!</span>
+                    <span class="line"></span>
+                    <div class="join_button">
+                        <a href="#">
+                            <h5>펫병원&#183;약국으로 가입</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="join service">
+                    <p>pet service</p>
+                    <h4>펫 서비스</h4>
+                    <span>미용&#44; 카페&#44; 펜셩 등 펫서비스 홍보를 위해 <br>
+                        지금바로 회원가입 하세요!</span>
+                    <span class="line"></span>
+                    <div class="join_button">
+                        <a href="#">
+                            <h5>펫서비스로 가입</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ///////////// -->
+        <section class="section6">
+            <div class="marketCafe_container">
+                <div class="market">
+                    <div class="Shortcuts">
+                        <a href="#">
+                            <h5>무료나눔&#183;체험단 바로가기</h5>
+                            <figure><img src="./img/section/slide-next.png" alt="slide-next"></figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="cafe">
+                    <div class="Shortcuts">
+                        <a href="#">
+                            <h5>반려동물 꿀팁 바로가기</h5>
+                            <figure><img src="./img/section/slide-next.png" alt="slide-next"></figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /////////// -->
+        <aside>
+            <div class="aside_container">
+            <div class="notification">
+                <div class="aside_title">
+                    <h5>공지사항</h5> <a href="#">
+                        <p>더보기<i class="fa-solid fa-plus"></i></p>
+                    </a>
+                </div>
+                <div class="aside_text">
+                    <ul>
+                        <li><em>&#183;</em><a href="#"><span>12&#47;06</span>
+                                <p>&#91;11월 후기 어워드&#93; 당첨자 발표</p>
+                            </a></li>
+                        <li><em>&#183;</em><a href="#"><span>09&#47;27</span>
+                                <p>&#91;베타버전&#93; AI 후기 평판 분석 서비스 오픈</p>
+                            </a></li>
+                        <li><em>&#183;</em><a href="#"><span>09&#47;18</span>
+                                <p>&#91;펫트라슈 x KB손해보험&#93; 금쪽같은 펫보험! 최대 3만원 이마트 상품권 이벤트</p>
+                            </a></li>
+                        <li><em>&#183;</em><a href="#"><span>09&#47;12</span>
+                                <p>&#91;마감&#93; 가을맞이 - 펫트라슈 신규 회원가입 이벤트<i class="fa-solid fa-star"></i></p>
+                            </a></li>
+                        <li><em>&#183;</em><a href="#"><span>12&#47;06</span>
+                                <p>&#91;펫트라슈 4기 서포터즈 모집&#93; 반려동물 진료비 표준화에 동참해 주세요!</p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="FAQ">
+                <div class="aside_title">
+                    <h5>FAQ</h5> <a href="#">
+                        <p>더보기<i class="fa-solid fa-plus"></i></p>
+                    </a>
+                </div>
+                <div class="aside_text">
+                    <ul>
+                        <li><em>&#183;</em><a href="#">
+                                <p>펫트라슈는 어떤 서비스인가요&#63;</p>
+                            </a></li>
+                        <li><em>&#183;</em><a href="#">
+                                <p>펫트라슈 서비스는 무료인가요&#63;</p>
+                            </a></li>
+                        <li><em>&#183;</em><a href="#">
+                                <p>펫트라슈는 진료비 비교 사이트 인가요&#63;</p>
+                            </a></li>
+                        <li><em>&#183;</em><a href="#">
+                                <p>펫트라슈 회원가입시 혜택은 무엇이 있나요&#63;</p>
+                            </a></li>
+                        <li><em>&#183;</em><a href="#">
+                                <p>병원 가입시 진료비 정보를 꼭 입력해야 하나요&#63;</p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </aside>
+    </main>
+    <!-- /////////// -->
+    <footer>
+        <div class="footer_container">
+        <div class="foot_left">
+            <p><span>DMP NETWORKS</span> &#160;대표이사 권태준 </p><br>
+            <p>사업자 등록번호 420&#45;86&#45;01793</p><br>
+            <p>통신판매업 신고번호 제 2020-서울강남&#45;00882호</p><br>
+            <p>인천광역시 연수구 송도문화로 119&#44;지원센터동 비1006호 &#40;주&#41;디엠피네트웍스</p><br>
+            <p>TEL&#46; 02&#45;6954&#45;2114</p>
+            <p>E&#45;mail admin&#64;Petraschu.com</p>
+
+            <p>Copyright &#169; DMP NETWORKS&#46; All Rights reserved&#46;</p>
+        </div>
+        <div class="foot_right">
+            <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">광고문의&#183;관리</a></li>
+                <li><a href="#">고객의소리</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="./img/footer/sns1.png" alt="sns1"></a></li>
+                <li><a href="#"><img src="./img/footer/sns2.png" alt="sns2"></a></li>
+                <li><a href="#"><img src="./img/footer/sns3.png" alt="sns3"></a></li>
+                <li><a href="#"><img src="./img/footer/sns4.png" alt="sns4"></a></li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+
+
+</body>
+
+
+</html>
