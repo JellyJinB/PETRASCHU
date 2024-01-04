@@ -1014,7 +1014,7 @@ input::placeholder {
     width: 45%;
     height: 100%;
     background-image: url(./img/section/market.jpg);
-    background-position: top;
+    background-position: top left;
     background-size: cover;
     background-color: #f0f0f0;
     background-repeat: no-repeat;
@@ -1027,7 +1027,7 @@ input::placeholder {
     width: 45%;
     height: 100%;
     background-image: url(./img/section/cafe.jpg);
-    background-position: top;
+    background-position: top left;
     background-size: cover;
     background-color: #f0f0f0;
     background-repeat: no-repeat;
