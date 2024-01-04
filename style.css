@@ -999,7 +999,6 @@ input::placeholder {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 7%;
-    max-height: 680px;
 }
 
 .marketCafe_container {
@@ -1255,7 +1254,11 @@ footer {
 
 
 /* @media screen */
-
+@media screen and (min-width:1920px){
+    .section6{
+       max-height: 680px;
+    }
+}
 @media screen and (max-width:1600px) {
     .search-bar {
         width: 50%;
