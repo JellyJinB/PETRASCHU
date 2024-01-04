@@ -1811,6 +1811,9 @@ footer {
         width: 90%;
         height: 100%;
     }
+    .search-bar{
+        border: 8px solid transparent;
+    }
 
     /* ///////*/
     .section1 {
